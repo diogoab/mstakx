@@ -2,9 +2,9 @@
 
 Draw.io here
 
-Prerequisites
-LinuxOS or MacOS
+## Prerequisites
 
+- LinuxOS or MacOS
 - Python 3.5.2 [LinuxOS](https://docs.python-guide.org/starting/install3/linux/) [MacOS](https://wsvincent.com/install-python3-mac/)
 - Google Cloud SDK 260.0.0 [LinuxOS](https://cloud.google.com/sdk/docs/downloads-interactive#linux) or [MacOS](https://cloud.google.com/sdk/docs/downloads-interactive#mac)
 - Terraform v0.11.10 [LinuxOS](https://askubuntu.com/questions/983351/how-to-install-terraform-in-ubuntu) or [MacOS](https://brewinstall.org/install-terraform-on-mac-with-brew/)
