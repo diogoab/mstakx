@@ -1,6 +1,6 @@
 #Connect to provider
 provider "google" {
-    credentials = "${file("terraform_key.json")}"
+    credentials = "${file("key_is_here.json")}"
     project     = "${var.project_id}"
     region      = "${var.region}"
 }

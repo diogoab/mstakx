@@ -1,13 +1,16 @@
 variable "project_id" {
   type    = "string"
-  default = "brave-scanner-244023"
+  default = "your_project_is_here"
 }
 
 variable "region" {
   type  = "string"
-  default = "us-central1"
+  default = "your_region_is_here"
 }
-
+variable "zone" {
+  type = "string"
+  default = "your_zone_is_here"
+}
 variable "name_master" {
   type  = "string"
   default = "k8s-master"
@@ -26,12 +29,6 @@ variable "type_instance_workers" {
   type = "string"
   default = "g1-small"
 }
-
-variable "zone" {
-  type = "string"
-  default = "us-central1-a"
-}
-
 variable "image" {
   type = "string"
   default = "ubuntu-os-cloud/ubuntu-1804-lts"
