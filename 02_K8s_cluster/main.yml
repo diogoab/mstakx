@@ -1,0 +1,6 @@
+---
+- import_playbook: 01-k8s-initial.yml
+- import_playbook: 01-k8s-dependencies.yml
+- import_playbook: 01-k8s-master.yml
+- import_playbook: 01-k8s-workers.yml
+- import_playbook: 01-k8s-getnodes.yml

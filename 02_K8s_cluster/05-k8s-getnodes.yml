@@ -1,0 +1,12 @@
+- hosts: master
+  remote_user: ubuntu
+  gather_facts: no
+  tasks:
+    - name: kubectl get nodes
+      shell: kubectl get nodes
+#      kubectl: action=get type=nodes
+      register: out 
+#
+    - debug: var=out.stdout_lines
+
+
